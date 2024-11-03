@@ -3,7 +3,8 @@ package com.example.ded2
 import androidx.lifecycle.ViewModel
 import org.example.controlePersonagem.Racas.*
 
-class PersonagemViewModel : ViewModel() {
+class PersonagemViewModel() : ViewModel() {
+
     var classeRaca : raca = humano()
 
     fun setClassRaca(selectedRaca: String) : raca {
